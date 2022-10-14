@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background-color {
+  background-color: rgb(236, 236, 236);
+}
+
+.expenses-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+  padding-top: 56px;
+}
+
+.expenses-heading1 {
+  text-transform: uppercase;
+  font-size: 56px;
+}
+
+.expenses-heading2 {
+  text-transform: capitalize;
+  font-size: 32px;
+  border-bottom: 1px solid rgb(189, 178, 178);
+  border-radius: 4px;
+  padding-bottom: 8px;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.balance-heading {
+  text-transform: capitalize;
+  font-size: 24px;
+}
+
+.balance-amount {
+  font-size: 36px;
+}
+
+.total {
+  display: flex;
+  width: 350px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 20px #888888;
+  border-bottom-right-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.total-block {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.total-block:not(:last-child) {
+  border-right: 1px solid #888888;
+  border-radius: 18px;
+}
+
+.total-title {
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.total-amount {
+  font-size: 24px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.operation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 12px;
+}
+
+.operation-field {
+  font-size: 24px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 8px;
+  width: 250px;
+  transition: all 0.3s;
+}
+
+.operation-field:focus {
+  outline: none;
+  width: 300px;
+}
+
+.operation-field:hover {
+  border: 1px solid #888888;
+  width: 300px;
+}
+
+.operation-button {
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 32px;
+  width: 250px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.operation-button:hover {
+  background-color: rgb(168, 93, 238);
+}
