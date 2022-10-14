@@ -41,9 +41,6 @@ body {
 
 /* =========================================== */
 
-.todos-block {
-}
-
 .todos {
   display: flex;
   justify-content: space-between;
@@ -75,10 +72,6 @@ body {
   color: whitesmoke;
   cursor: pointer;
   text-transform: capitalize;
-}
-
-.todos-edit {
-  background-color: aquamarine;
 }
 
 .todos-delete {

@@ -95,7 +95,6 @@ class TodoItem extends Todo {
       <div className="todos">
         <span className="todos-text">{this.props.title}</span>
         <div className="todos-buttons">
-          <button className="btn todos-edit">edit</button>
           <button
             className="btn todos-delete"
             onClick={this.currentElementIndexSender.bind(this)}
